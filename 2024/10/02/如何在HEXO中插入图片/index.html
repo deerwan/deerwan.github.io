@@ -20,18 +20,19 @@
   <meta name="keywords" content="">
   
     <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="http://example.com/2025/02/16/hello-world/index.html">
+<meta property="og:title" content="如何在HEXO中插入图片">
+<meta property="og:url" content="http://example.com/2024/10/02/%E5%A6%82%E4%BD%95%E5%9C%A8HEXO%E4%B8%AD%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87/index.html">
 <meta property="og:site_name" content="DEER">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2025-02-16T03:25:44.429Z">
-<meta property="article:modified_time" content="2024-09-09T07:33:12.731Z">
+<meta property="article:published_time" content="2024-10-02T13:45:24.000Z">
+<meta property="article:modified_time" content="2024-10-26T03:32:18.142Z">
 <meta property="article:author" content="DEER">
+<meta property="article:tag" content="HEXO">
 <meta name="twitter:card" content="summary_large_image">
   
   
   
-  <title>Hello World - DEER</title>
+  <title>如何在HEXO中插入图片 - DEER</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -197,7 +198,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="Hello World"></span>
+            <span id="subtitle" data-typed-text="如何在HEXO中插入图片"></span>
           
         </div>
 
@@ -208,8 +209,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2025-02-16 11:25" pubdate>
-          2025年2月16日 上午
+        <time datetime="2024-10-02 21:45" pubdate>
+          2024年10月2日 晚上
         </time>
       </span>
     
@@ -220,7 +221,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          18 字
+          394 字
         
       </span>
     
@@ -231,7 +232,7 @@
         
         
         
-          1 分钟
+          4 分钟
         
       </span>
     
@@ -268,7 +269,7 @@
       <div class="container nopadding-x-md" id="board-ctn">
         <div id="board">
           <article class="post-content mx-auto">
-            <h1 id="seo-header">Hello World</h1>
+            <h1 id="seo-header">如何在HEXO中插入图片</h1>
             
             
               <div class="markdown-body">
@@ -276,19 +277,45 @@
                 <hr>
 <span id="more"></span>
 
-<p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure>
+<p>在 Hexo 中插入图片有多种方式，具体方法取决于你使用的 Hexo 插件和图片的存储位置。以下是几种常见的方式：</p>
+<ol>
+<li>使用相对路径插入本地图片<br>在 Hexo 的 source 文件夹下，创建一个文件夹（如 images），并将图片放入其中，然后使用 Markdown 语法插入图片：</li>
+</ol>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">!<span class="hljs-selector-attr">[图片描述，可为空]</span>(images/your-<span class="hljs-selector-tag">image</span><span class="hljs-selector-class">.png</span>)<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure>
+<ol start="2">
+<li>使用 hexo-asset-image 插件插入图片<br>如果希望图片和文章内容一起管理，可以使用 hexo-asset-image 插件，使图片放在每篇文章的同名文件夹中。</li>
+</ol>
+<p>安装插件<br>在你的 Hexo 博客目录中运行：</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">npm install hexo-asset-<span class="hljs-selector-tag">image</span> <span class="hljs-attr">--save</span><br></code></pre></td></tr></table></figure>
 
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<p>插入图片<br>在 source&#x2F;_posts 文件夹中，找到你的 Markdown 文件（如 post-title.md）。</p>
+<p>在同一目录下创建一个同名文件夹 post-title&#x2F;，然后将图片放入该文件夹。</p>
+<p>使用以下格式插入图片：</p>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs arduino"><br>![alt text](post-title/image.png)<br></code></pre></td></tr></table></figure>
+
+
+<ol start="3">
+<li>使用 URL 链接插入外部图片<br>如果你的图片在外部服务器或图床上，可以直接使用 URL 插入：</li>
+</ol>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs less">!<span class="hljs-selector-attr">[alt text]</span>(<span class="hljs-attribute">https</span>:<span class="hljs-comment">//example.com/path-to-image.png)</span><br></code></pre></td></tr></table></figure>
+
+
+<ol start="4">
+<li>使用 hexo-tag-image 插件<br>hexo-tag-image 插件提供了更多自定义选项，比如指定图片的宽度、高度、对齐方式等。</li>
+</ol>
+<p>安装插件</p>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css">npm install hexo-tag-<span class="hljs-selector-tag">image</span> <span class="hljs-attr">--save</span><br></code></pre></td></tr></table></figure>
+
+<p>插入图片<br>使用如下语法：</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">&#123;% image [<span class="hljs-keyword">class</span> <span class="hljs-symbol">names</span>] /<span class="hljs-symbol">path</span>/<span class="hljs-symbol">to</span>/<span class="hljs-symbol">image</span> [<span class="hljs-symbol">width</span>] [<span class="hljs-symbol">height</span>] [<span class="hljs-symbol">title</span> <span class="hljs-symbol">text</span> [<span class="hljs-symbol">alt</span> <span class="hljs-symbol">text</span>]] %&#125;<br></code></pre></td></tr></table></figure>
+
+<p>例如：</p>
+<figure class="highlight maxima"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs maxima">&#123;<span class="hljs-symbol">%</span> <span class="hljs-built_in">image</span> <span class="hljs-built_in">center</span> https://<span class="hljs-built_in">example</span>.com/<span class="hljs-built_in">image</span>.png <span class="hljs-number">600</span> <span class="hljs-number">400</span> <span class="hljs-string">&quot;Title text&quot;</span> <span class="hljs-string">&quot;Alt text&quot;</span> <span class="hljs-symbol">%</span>&#125;<br></code></pre></td></tr></table></figure>
+
+<p>每种方法适用于不同的场景，你可以根据需求选择合适的方法。</p>
 
                 
               </div>
@@ -298,6 +325,13 @@
               <div class="post-metas my-3">
   
   
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/HEXO/" class="print-no-link">#HEXO</a>
+      
+    </div>
+  
 </div>
 
 
@@ -306,8 +340,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>Hello World</div>
-      <div>http://example.com/2025/02/16/hello-world/</div>
+      <div>如何在HEXO中插入图片</div>
+      <div>http://example.com/2024/10/02/如何在HEXO中插入图片/</div>
     </div>
     <div class="license-meta">
       
@@ -319,7 +353,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2025年2月16日</div>
+          <div>2024年10月2日</div>
         </div>
       
       
@@ -351,12 +385,18 @@
                   <article class="post-prev col-6">
                     
                     
+                      <a href="/2024/10/08/%E8%B4%A6%E5%AF%86%E7%99%BB%E5%BD%95jd-login-Bncr/" title="账密登录jd-login-Bncr">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">账密登录jd-login-Bncr</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/2024/10/08/%E3%80%90BNCR%E3%80%91%E6%97%A0%E7%95%8C3%200%E6%96%B0%E6%89%8B%E6%95%99%E7%A8%8B-DEER/" title="【Bncr】无界3.0新手教程-Deer">
-                        <span class="hidden-mobile">【Bncr】无界3.0新手教程-Deer</span>
+                      <a href="/2024/10/01/2024-10-01-%E5%85%B3%E4%BA%8Efnos%E4%BD%BF%E7%94%A8root%E7%94%A8%E6%88%B7%E7%99%BB%E5%BD%95/" title="关于fnos使用root用户登录">
+                        <span class="hidden-mobile">关于fnos使用root用户登录</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
