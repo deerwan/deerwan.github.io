@@ -8,8 +8,8 @@
 <head>
   <meta charset="UTF-8">
 
-  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
-  <link rel="icon" href="/img/fluid.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon.ico">
+  <link rel="icon" href="/img/favicon.ico">
   
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
@@ -106,7 +106,7 @@
   <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
   <div class="container">
     <a class="navbar-brand" href="/">
-      <strong>Fluid</strong>
+      <strong>DEERのBLOG</strong>
     </a>
 
     <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
@@ -220,7 +220,7 @@
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
         <time datetime="2024-10-08 22:35" pubdate>
-          2024年10月8日 晚上
+          星期二, 十月 8日 2024, 10:35 晚上
         </time>
       </span>
     
@@ -231,6 +231,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
+          <!-- compatible with older versions-->
           4.8k 字
         
       </span>
@@ -242,6 +243,7 @@
         
         
         
+          <!-- compatible with older versions-->
           40 分钟
         
       </span>
@@ -476,7 +478,7 @@
 <p>进入web后台插件配置 <code>/plugins/红灯区/登录.js</code>按照注释填写配置，带星号的必须填写。</p>
 <p>rabbit容器id一般是2，如中间删过，后面又重新对接了，那就得写3，每删一次，就得往后加1。</p>
 <p>登录&#x2F;上车回复语自己设置。这里不设置的话，则默认使用插件内部回复语</p>
-<p>注意：rabbitPro容器id哪怕没有也要填写一个0，否则无法保存，如果登录有莫名其妙的报错 请运行D佬的一键依赖并重启，got版本要在11.8.5，在任意有管理员权限的平台发：npm i <a href="mailto:&#103;&#x6f;&#x74;&#x40;&#x31;&#x31;&#46;&#56;&#x2e;&#53;">got@11.8.5</a></p>
+<p>注意：rabbitPro容器id哪怕没有也要填写一个0，否则无法保存，如果登录有莫名其妙的报错 请运行D佬的一键依赖并重启，got版本要在11.8.5，在任意有管理员权限的平台发：npm i <a href="mailto:&#103;&#x6f;&#x74;&#x40;&#x31;&#49;&#46;&#x38;&#46;&#53;">got@11.8.5</a></p>
 <p><img src="https://imgs.dsdog.tk/file/33f2383921d058428dc17.png" srcset="/img/loading.gif" lazyload alt="https:&#x2F;&#x2F;imgs.dsdog.tk&#x2F;file&#x2F;33f2383921d058428dc17.png"></p>
 <p>配置完以后记得保存，保存好到输入“重启”，然后到bot发送“上车”，自己测试下。</p>
 <h3 id="查询狗东资产"><a href="#查询狗东资产" class="headerlink" title="查询狗东资产"></a>查询狗东资产</h3><p>插件市场下载D版<code>查询.js</code>插件，还需要下载依赖文件<code>h5st.js</code>，安装依赖 <code>npm i date-fns</code>，进入插件配置，直接点击保存即可。</p>
@@ -597,6 +599,41 @@
             </div>
 
             
+  
+  
+    <article id="comments" lazyload>
+      
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#comments', function() {
+      var light = 'github-light';
+      var dark = 'github-dark';
+      var schema = document.documentElement.getAttribute('data-user-color-scheme');
+      if (schema === 'dark') {
+        schema = dark;
+      } else {
+        schema = light;
+      }
+      window.UtterancesThemeLight = light;
+      window.UtterancesThemeDark = dark;
+      var s = document.createElement('script');
+      s.setAttribute('src', 'https://utteranc.es/client.js');
+      s.setAttribute('repo', 'deerwan/deerwan.github.io');
+      s.setAttribute('issue-term', 'title');
+      
+      s.setAttribute('label', 'utterances');
+      
+      s.setAttribute('theme', schema);
+      s.setAttribute('crossorigin', 'anonymous');
+      document.getElementById('comments').appendChild(s);
+    })
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+    </article>
+  
+
+
           </article>
         </div>
       </div>
