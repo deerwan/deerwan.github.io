@@ -9,6 +9,6 @@
     "onePageListNum":15,   
     "i18n":"CN",    
     "UTC":8,
-    "allHead":"<script src='https://github.com/deerwan/deerwan.github.io/blob/main/static/js/GmeekBSZ.js'></script>"
-
+    "allHead":"<script src='https://github.com/deerwan/deerwan.github.io/blob/main/static/js/GmeekBSZ.js'></script>",
+    "allHead":"<script src='https://github.com/deerwan/deerwan.github.io/blob/main/static/js/GmeekVercount.js'></script>"
 }
