@@ -8,6 +8,7 @@
     "startSite":"06/25/2024",      
     "onePageListNum":15,   
     "i18n":"CN",    
-    "UTC":8   
-    
+    "UTC":8,
+    "allHead":"<script src='https://github.com/deerwan/deerwan.github.io/blob/main/static/js/GmeekBSZ.js'></script>"
+
 }
