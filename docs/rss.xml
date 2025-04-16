@@ -1,5 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:36:19 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>玩客云Armbian(CasaOS)使用指南</title><link>https://deerwan.github.io/post/wan-ke-yun-Armbian%28CasaOS%29-shi-yong-zhi-nan.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:37:07 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>玩客云Armbian版本区别</title><link>https://deerwan.github.io/post/wan-ke-yun-Armbian-ban-ben-qu-bie.html</link><description>
+**bookworm_current**和**bullseye_current**和**jammy_current**的区别
+
+以**hzyitc**大佬的仓库为标准
+大佬仓库地址:**https://github.com/hzyitc/armbian-onecloud**
+
+Bookworm 和 Bullseye 都是 Debian 发行版，前者是 Debian 12，后者是 Debian 11，主要区别在于版本的更新程度和支持时间。</description><guid isPermaLink="true">https://deerwan.github.io/post/wan-ke-yun-Armbian-ban-ben-qu-bie.html</guid><pubDate>Wed, 16 Apr 2025 01:36:40 +0000</pubDate></item><item><title>玩客云Armbian(CasaOS)使用指南</title><link>https://deerwan.github.io/post/wan-ke-yun-Armbian%28CasaOS%29-shi-yong-zhi-nan.html</link><description>
 ### **一键换源**
 
 系统源
