@@ -1,5 +1,114 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:38:01 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>无界新手教程</title><link>https://deerwan.github.io/post/wu-jie-xin-shou-jiao-cheng.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:38:45 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>小雅emby全家桶+家庭影院服务器</title><link>https://deerwan.github.io/post/xiao-ya-emby-quan-jia-tong-%2B-jia-ting-ying-yuan-fu-wu-qi.html</link><description>
+视频教程
+
+https://www.bilibili.com/video/BV1vK421x7eM/?spm_id_from=333.999.0.0
+
+安装常用软件
+
+```
+apt install -y curl wget sudo bash
+```
+
+debian默认不能root用户直接登录，我们需要修改下
+
+```
+sudo nano /etc/ssh/sshd_config
+```
+
+找到并用#注释掉这行
+
+```
+PermitRootLogin prohibit-password
+```
+
+新建一行 添加
+
+```
+PermitRootLogin yes
+```
+
+重启服务
+
+```
+sudo service ssh restart
+```
+
+一键更新（先更新一下）
+
+```
+apt update -y &amp;&amp; apt full-upgrade -y &amp;&amp; apt autoremove -y &amp;&amp; apt autoclean -y
+```
+
+挂载U盘
+
+查看挂载情况
+
+```
+df -h
+```
+
+Debian 开机自动挂载磁盘
+
+查看磁盘所有UUID
+
+```
+sudo blkid
+```
+
+编辑/etc/fstab文件, 在文件尾部添加需要挂载磁盘的UUID 并添加一些信息例如 ↓
+
+```
+UUID=******* /home/h1/ ext4 defaults 0 2
+```
+
+
+UUID是磁盘的信息标签, /home/h1是挂载的文件夹, txt4是磁盘格式, defaults 默认.
+第一个数字：0表示开机不检查磁盘，1表示开机检查磁盘；
+第二个数字：0表示交换分区，1代表启动分区（Linux），2表示普通分区
+
+安装docker
+
+这里用脚本吧，选择一种方式
+一键脚本（工具箱}
+
+```markdown
+curl -sS -O https://kejilion.pro/kejilion.sh &amp;&amp; chmod +x kejilion.sh &amp;&amp; ./kejilion.sh
+```
+
+
+docker一键脚本
+
+```markdown
+bash &lt;(curl -sSL https://linuxmirrors.cn/docker.sh)
+```
+
+
+安装小雅
+官网地址： https://github.com/DDS-Derek/xiaoya-alist
+
+```markdown
+bash -c '$(curl -sLk https://ddsrem.com/xiaoya_install.sh)'
+```
+
+
+需要两个token和一个id
+短token：https://alist.nn.ci/zh/guide/drivers/aliyundrive.html
+长token：https://alist.nn.ci/zh/guide/drivers/aliyundrive_open.html
+文件夹id：https://www.alipan.com/
+阿里云盘的资源盘建立一个文件夹，然后填入地址栏中的id
+
+推荐使用host模式
+
+web界面
+http://自己的ip地址:5678/
+这里是正常的 等的几分钟刷新一下
+
+emby全家桶
+
+1. 安装需要的条件：
+
+1.1. 正确安装小雅Docker版，并可以正常使用。</description><guid isPermaLink="true">https://deerwan.github.io/post/xiao-ya-emby-quan-jia-tong-%2B-jia-ting-ying-yuan-fu-wu-qi.html</guid><pubDate>Wed, 16 Apr 2025 01:38:22 +0000</pubDate></item><item><title>无界新手教程</title><link>https://deerwan.github.io/post/wu-jie-xin-shou-jiao-cheng.html</link><description>
 ## **特殊说明**
 
 无界的上手难度不算低，大家尽力而为，有问题**带着截图**去群里问。</description><guid isPermaLink="true">https://deerwan.github.io/post/wu-jie-xin-shou-jiao-cheng.html</guid><pubDate>Wed, 16 Apr 2025 01:37:34 +0000</pubDate></item><item><title>玩客云Armbian版本区别</title><link>https://deerwan.github.io/post/wan-ke-yun-Armbian-ban-ben-qu-bie.html</link><description>
