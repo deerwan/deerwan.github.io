@@ -1,23 +1,13 @@
 {
     "title":"Deer",    
-    # 【必填】博客标题
     "subTitle":"分享生活的点滴",    
-    # 【必填】博客描述&自述
-    "avatarUrl":"https://avatars.githubusercontent.com/u/70961031?v=4",    
-    # 【必填】博客头像    
+    "avatarUrl":"https://avatars.githubusercontent.com/u/70961031?v=4",       
     "GMEEK_VERSION":"last",   
-    # 【必填】Gmeek版本，一般写last也可以用具体tag版本
     "displayTitle":"路人",     
-    # 用于头像后面的标题展示，如果和title一致则不用添加
     "faviconUrl":"https://avatars.githubusercontent.com/u/70961031?v=4",    
-    # 页面的favicon地址，如果和avatarUrl一致则不用添加
     "startSite":"06/25/2024",      
-    # 用于页面底部显示网站运行天数
     "onePageListNum":15,   
-    # 用于首页每页展示的文章数量
     "i18n":"CN",    
-    # 用于定义博客语言
     "UTC":8   
-    # 用于定义时区
     
 }
