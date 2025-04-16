@@ -1,5 +1,66 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:35:21 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>群晖安装Agent被控端</title><link>https://deerwan.github.io/post/qun-hui-an-zhuang-Agent-bei-kong-duan.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:36:19 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>玩客云Armbian(CasaOS)使用指南</title><link>https://deerwan.github.io/post/wan-ke-yun-Armbian%28CasaOS%29-shi-yong-zhi-nan.html</link><description>
+### **一键换源**
+
+系统源
+
+```
+bash &lt;(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/ChangeMirrors.sh)
+```
+
+```
+
+
+```
+
+Docker源
+
+```
+bash &lt;(curl -sSL https://gitee.com/SuperManito/LinuxMirrors/raw/main/DockerInstallation.sh)
+```
+
+## 
+
+### **玩客云**CasaOS商店专属源
+
+```
+●
+```
+
+**arm/armv7/armhf** (玩客云 等)
+
+```
+https://play.cuse.eu.org/Cp0204-AppStore-Play-arm.zip
+```
+
+### **修改LED灯颜色 0为关闭, 1为开启**
+
+配置即时生效：例【蓝色】
+
+```
+echo 0 &gt; /sys/class/leds/onecloud:red:alive/brightness
+echo 1 &gt; /sys/class/leds/onecloud:blue:alive/brightness
+echo 0 &gt; /sys/class/leds/onecloud:green:alive/brightness
+```
+
+配置永久生效：例【蓝色】
+
+```
+nano /sys/class/leds/onecloud:blue:alive/brightness
+1
+nano /sys/class/leds/onecloud:red:alive/brightness
+0
+nano /sys/class/leds/onecloud:green:alive/brightness
+0
+```
+
+## **进阶**
+
+## **OneCloud 设备 LED 控制程序**
+
+#### **项目地址：**[Lance-He/OneCloud-LED (github.com)](https://github.com/Lance-He/OneCloud-LED?tab=readme-ov-file#onecloud-设备-led-控制程序)
+
+本项目为 玩客云OneCloud 设备提供一个自制的 LED 控制程序，基于 hzyitc 大佬的 Armbian 镜像开发，兼容大部分 Debian 系列发行版。</description><guid isPermaLink="true">https://deerwan.github.io/post/wan-ke-yun-Armbian%28CasaOS%29-shi-yong-zhi-nan.html</guid><pubDate>Wed, 16 Apr 2025 01:35:51 +0000</pubDate></item><item><title>群晖安装Agent被控端</title><link>https://deerwan.github.io/post/qun-hui-an-zhuang-Agent-bei-kong-duan.html</link><description>
 先手动下载nezha-agent程序
 
 我们打开这个链接：https://github.com/nezhahq/agent/releases ，找到和我们系统对应的安装程序。</description><guid isPermaLink="true">https://deerwan.github.io/post/qun-hui-an-zhuang-Agent-bei-kong-duan.html</guid><pubDate>Wed, 16 Apr 2025 01:34:57 +0000</pubDate></item><item><title>更改Docker容器时区</title><link>https://deerwan.github.io/post/geng-gai-Docker-rong-qi-shi-qu.html</link><description>
