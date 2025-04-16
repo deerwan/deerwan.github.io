@@ -1,5 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:31:36 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>飞牛OS切换ROOT用户</title><link>https://deerwan.github.io/post/fei-niu-OS-qie-huan-ROOT-yong-hu.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:33:07 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>UptimeRobot-网站监控</title><link>https://deerwan.github.io/post/UptimeRobot--wang-zhan-jian-kong.html</link><description>
+# 如何部署 Site Status 网站可用性监测页面
+
+### 简介
+
+**Site-Status 是一个基于 UptimeRobot API 的开源站点在线状态监测面板。</description><guid isPermaLink="true">https://deerwan.github.io/post/UptimeRobot--wang-zhan-jian-kong.html</guid><pubDate>Wed, 16 Apr 2025 01:32:32 +0000</pubDate></item><item><title>飞牛OS切换ROOT用户</title><link>https://deerwan.github.io/post/fei-niu-OS-qie-huan-ROOT-yong-hu.html</link><description>
 首先去web后台打开ssh功能
 
 ![](https://blog.106996.xyz/HEXO/fnos/Snipaste_2024-10-26_10-55-09.png)
