@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:37:07 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>玩客云Armbian版本区别</title><link>https://deerwan.github.io/post/wan-ke-yun-Armbian-ban-ben-qu-bie.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Wed, 16 Apr 2025 01:38:01 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>无界新手教程</title><link>https://deerwan.github.io/post/wu-jie-xin-shou-jiao-cheng.html</link><description>
+## **特殊说明**
+
+无界的上手难度不算低，大家尽力而为，有问题**带着截图**去群里问。</description><guid isPermaLink="true">https://deerwan.github.io/post/wu-jie-xin-shou-jiao-cheng.html</guid><pubDate>Wed, 16 Apr 2025 01:37:34 +0000</pubDate></item><item><title>玩客云Armbian版本区别</title><link>https://deerwan.github.io/post/wan-ke-yun-Armbian-ban-ben-qu-bie.html</link><description>
 **bookworm_current**和**bullseye_current**和**jammy_current**的区别
 
 以**hzyitc**大佬的仓库为标准
