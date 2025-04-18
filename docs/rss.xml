@@ -1,5 +1,45 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Thu, 17 Apr 2025 08:23:50 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>小雅emby全家桶+家庭影院服务器</title><link>https://deerwan.github.io/post/xiao-ya-emby-quan-jia-tong-%2B-jia-ting-ying-yuan-fu-wu-qi.html</link><description>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>Deer</title><link>https://deerwan.github.io</link><description>分享生活的点滴</description><copyright>Deer</copyright><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><image><url>https://avatars.githubusercontent.com/u/70961031?v=4</url><title>avatar</title><link>https://deerwan.github.io</link></image><lastBuildDate>Fri, 18 Apr 2025 16:08:44 +0000</lastBuildDate><managingEditor>Deer</managingEditor><ttl>60</ttl><webMaster>Deer</webMaster><item><title>独角数卡后台配置</title><link>https://deerwan.github.io/post/du-jiao-shu-qia-hou-tai-pei-zhi.html</link><description>## 独角数卡后台配置
+
+
+
+##### 邮箱服务
+
+- 邮件驱动                                        smtp      
+- smtp服务器地址                           smtp.qq.com
+- 端口                                                587或465
+- 账号                                                你的邮箱
+- 密码                                                 qq邮箱是开通smtp服务密码，gmail是专用密码协议
+- 协议                                                 587是tls         465是ssl                                                
+- 发件地址                                         你的邮箱
+- 发件名称                                         自定义
+
+
+
+##### 隐藏脚注
+
+**建议保留**
+
+***Powered by @独角数卡***
+
+编辑`resources/views/unicorn/layouts/footer.blade.php` 将脚注内容删除或注释起来
+
+```
+&lt;!--Powered by：&lt;a href='http://dujiaoka.com'&gt;@独角数卡&lt;/a&gt;--&gt;
+
+```
+
+另外两个主题同理，分别是
+
+`resources/views/luna/layouts/footer.blade.php`
+
+`resources/views/hyper/layouts/footer.blade.php`
+
+##### 自定义图标,favicon,背景图
+
+在系统设置-站点模板中，可以看到独角数卡有三种主题可选，分别是默认的`unicorn`, `Luna`和`hyper`
+
+这里以Luna举例，其他主题同理。</description><guid isPermaLink="true">https://deerwan.github.io/post/du-jiao-shu-qia-hou-tai-pei-zhi.html</guid><pubDate>Fri, 18 Apr 2025 16:08:18 +0000</pubDate></item><item><title>小雅emby全家桶+家庭影院服务器</title><link>https://deerwan.github.io/post/xiao-ya-emby-quan-jia-tong-%2B-jia-ting-ying-yuan-fu-wu-qi.html</link><description>
 视频教程
 
 https://www.bilibili.com/video/BV1vK421x7eM/?spm_id_from=333.999.0.0
