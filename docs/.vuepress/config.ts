@@ -16,8 +16,8 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: '我的主页',
-  description: '欢迎来到我的主页',
+  title: 'deerwan',
+  description: '鹿人的小窝',
 
   head: [
     // 配置站点图标

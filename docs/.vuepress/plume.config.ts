@@ -53,8 +53,8 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: '/logo.png',
-    name: '我的主页',
-    description: '欢迎来到我的主页',
+    name: 'deerwan',
+    description: '鹿人的小窝',
     // circle: true,
     // location: '',
     // organization: '',
