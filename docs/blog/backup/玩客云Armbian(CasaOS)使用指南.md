@@ -2,6 +2,8 @@
 title: 玩客云Armbian(CasaOS)使用指南
 createTime: 2025/10/13 22:35:13
 permalink: /blog/n1kut3sl/
+tags:
+  - backup
 ---
 
 ### **一键换源**

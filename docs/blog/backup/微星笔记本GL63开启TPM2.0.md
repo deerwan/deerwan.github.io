@@ -2,6 +2,8 @@
 title: 微星笔记本GL63开启TPM2.0
 createTime: 2025/10/13 22:35:13
 permalink: /blog/pm4wkj29/
+tags:
+  - backup
 ---
 ### 微星笔记本GL63开启TPM2.0
 

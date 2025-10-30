@@ -2,6 +2,8 @@
 title: 玩客云Armbian版本区别
 createTime: 2025/10/13 22:35:13
 permalink: /blog/kvd3he46/
+tags:
+  - backup
 ---
 
 **bookworm_current**和**bullseye_current**和**jammy_current**的区别

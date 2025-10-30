@@ -2,6 +2,8 @@
 title: 小雅emby全家桶+家庭影院服务器
 createTime: 2025/10/13 22:35:13
 permalink: /blog/snpop3v2/
+tags:
+  - backup
 ---
 
 视频教程

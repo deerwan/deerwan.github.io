@@ -2,6 +2,8 @@
 title: UptimeRobot-网站监控
 createTime: 2025/10/13 22:35:13
 permalink: /blog/3jfx5o8x/
+tags:
+  - backup
 ---
 
 # 如何部署 Site Status 网站可用性监测页面

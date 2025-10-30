@@ -2,6 +2,8 @@
 title: 群晖安装Agent被控端
 createTime: 2025/10/13 22:35:13
 permalink: /blog/j3rm7hip/
+tags:
+  - backup
 ---
 
 先手动下载nezha-agent程序

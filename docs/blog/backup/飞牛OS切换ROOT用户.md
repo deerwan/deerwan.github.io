@@ -2,6 +2,8 @@
 title: 飞牛OS切换ROOT用户
 createTime: 2025/10/13 22:35:13
 permalink: /blog/p2ukkhbd/
+tags:
+  - backup
 ---
 
 首先去web后台打开ssh功能

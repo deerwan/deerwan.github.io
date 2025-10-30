@@ -2,6 +2,8 @@
 title: 更改Docker容器时区
 createTime: 2025/10/13 22:35:13
 permalink: /blog/puz2qla0/
+tags:
+  - backup
 ---
 
 ### 问题：容器时间与北京时间相差8个小时
