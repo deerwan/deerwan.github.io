@@ -7,9 +7,9 @@ config:
     full: true
     effect: tint-plate
     hero:
-      name: hi ,I'm Deer
-      tagline: 是你熟知的小鹿吗
-      text: 我现在正在学习 Vue 
+      name: 鹿人
+      tagline: 欢迎来到我的主页
+      text: 记录点滴
       actions:
         -
           theme: brand
