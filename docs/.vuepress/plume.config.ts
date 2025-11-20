@@ -42,19 +42,19 @@ export default defineThemeConfig({
 
   /* 站点页脚 */
   footer: {
-   message: `本网站由 <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;vertical-align:middle;">
+    message: `本网站由 <a href="https://www.cloudflare.com/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:6px;vertical-align:middle;">
       <img src="https://www.cloudflare.com/favicon.ico" alt="Cloudflare" style="height:18px;width:18px;border-radius:50%;background:#fff;box-shadow:0 0 0 2px #fff;vertical-align:middle;" />
       <span style="font-weight:600;">Cloudflare</span>
     </a> 提供 CDN 加速 / 安全防护服务`,
-     copyright: '© 2025 Deerwan. All rights reserved.',
-   },
+    /*   copyright: '© 2025 Deerwan. All rights reserved.', */
+  },
 
   /**
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
     avatar: '/logo.png',
-    name: 'deerwan',
+    name: 'DEER',
     description: '鹿人的小窝',
     // circle: true,
     // location: '',
