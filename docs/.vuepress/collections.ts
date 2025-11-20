@@ -61,6 +61,20 @@ const demoDoc = defineCollection({
   // sidebar: 'auto',
 })
 
+const notes = defineCollection({
+  // doc 类型，带有侧边栏
+  type: 'doc',
+  // 文档集合所在目录，相对于 `docs`
+  dir: 'notes',
+  // 链接前缀
+  linkPrefix: '/notes',
+  // 文档标题
+  title: '笔记',
+  // 根据文件结构自动生成侧边栏
+  sidebar: 'auto',
+})
+
+
 /**
  * 导出所有的 collections
  * (blog 为博客示例，如果不需要博客功能，请删除)
@@ -69,4 +83,6 @@ const demoDoc = defineCollection({
 export default defineCollection([
   blog,
   demoDoc,
+  notes,
 ])
+

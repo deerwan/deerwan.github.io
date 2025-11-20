@@ -10,6 +10,7 @@ export default defineNavbarConfig([
   { text: '首页', link: '/' },
   { text: '导航', link: '/nav/' },
   { text: '项目', link: '/projects/' },
+  { text: '笔记', link: '/notes/' },
   { text: '博客', link: '/blog/' },
   { text: '标签', link: '/blog/tags/' },
   { text: '归档', link: '/blog/archives/' },
