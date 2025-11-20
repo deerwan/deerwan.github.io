@@ -16,23 +16,23 @@ tags:
 
 之后在高级选项中找到PCH-FW Configuration
 
-![Image](https://github.com/user-attachments/assets/f99056b2-2034-46f5-a86c-56849032420c)
+![1.jpeg](https://img.106996.xyz/file/1763645393417_1.jpeg)
 
 找到PTT Configuration
 
-![Image](https://github.com/user-attachments/assets/1584daed-d735-477d-a07f-f6fc9f2903e3)
+![2.jpeg](https://img.106996.xyz/file/1763645491436_2.jpeg)
 
 把dTPM改为PTT（如果已经是PTT可以跳过此步）。
 
-![Image](https://github.com/user-attachments/assets/67c3a8a4-7464-4bdd-a7ed-cb013e154ef1)
+![3.jpeg](https://img.106996.xyz/file/1763645493683_3.jpeg)
 
 之后在安全性中找到Trusted Computing
 注：有个别型号的Trusted Computing选项则是在高级选项中当中
 
-![Image](https://github.com/user-attachments/assets/fec4563a-8ce1-41c7-901d-7e39afe51ad6)
+![4.jpeg](https://img.106996.xyz/file/1763645497152_4.jpeg)
 
 找到Security Device Support，将Disable改为Enable
 
-![Image](https://github.com/user-attachments/assets/22ee5b40-a06c-4420-9b75-bb31814b399f)
+![5.jpeg](https://img.106996.xyz/file/1763645501439_5.jpeg)
 
 按F10保存
