@@ -6,6 +6,7 @@ config:
     type: hero
     full: true
     effect: tint-plate
+    effectConfig: 210
     hero:
       name: 鹿人
       tagline: 欢迎来到我的主页

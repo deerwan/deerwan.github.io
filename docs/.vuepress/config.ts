@@ -16,7 +16,7 @@ import { plumeTheme } from 'vuepress-theme-plume'
 export default defineUserConfig({
   base: '/',
   lang: 'zh-CN',
-  title: 'deerwan',
+  title: 'DEER',
   description: '鹿人的小窝',
 
   head: [
@@ -141,17 +141,17 @@ export default defineUserConfig({
      * 评论 comments
      * @see https://theme-plume.vuejs.press/guide/features/comments/
      */
-     comment: {
-       provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
-       comment: true,
-       repo: 'deerwan/deerwan.github.io',
-       repoId: 'R_kgDOQLceMw',
-       category: 'Announcements',
-       categoryId: 'DIC_kwDOQLceM84CxN3e',
-       mapping: 'pathname',
-       reactionsEnabled: true,
-       inputPosition: 'top',
-     },
+    comment: {
+      provider: 'Giscus', // "Artalk" | "Giscus" | "Twikoo" | "Waline"
+      comment: true,
+      repo: 'deerwan/deerwan.github.io',
+      repoId: 'R_kgDOQLceMw',
+      category: 'Announcements',
+      categoryId: 'DIC_kwDOQLceM84CxN3e',
+      mapping: 'pathname',
+      reactionsEnabled: true,
+      inputPosition: 'top',
+    },
 
     /**
      * 资源链接替换
