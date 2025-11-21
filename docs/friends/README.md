@@ -23,7 +23,10 @@ groups:
         desc: 风带来种子，时间使之发芽
         link: https://yilx.net
         avatar: https://icon.ooo/yilx.net
-
+      - name: xtls
+        desc: xtls
+        link: https://www.xtls.org
+        avatar: https://icon.ooo/xtls.org
 ---
 
 <br />

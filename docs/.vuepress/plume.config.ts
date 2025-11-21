@@ -57,9 +57,9 @@ export default defineThemeConfig({
     avatar: '/logo.png',
     name: 'DEER',
     description: '鹿人的小窝',
-    // circle: true,
-    // location: '',
-    // organization: '',
+    circle: true,
+    location: 'Henan, China',
+    organization: 'deerwan',
   },
 
   navbar,
