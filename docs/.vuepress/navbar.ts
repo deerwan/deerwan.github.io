@@ -8,9 +8,9 @@ import { defineNavbarConfig } from 'vuepress-theme-plume'
 
 export default defineNavbarConfig([
   { text: '首页', link: '/', icon: 'material-symbols:home-outline' },
-  { text: '导航', link: '/nav/', icon: 'material-symbols:article-outline' },
-  { text: '项目', link: '/projects/', icon: 'material-symbols:article-outline' },
-  { text: '笔记', link: '/notes/', icon: 'material-symbols:article-outline' },
+  { text: '导航', link: '/nav/', icon: 'material-symbols:explore' },
+  { text: '项目', link: '/projects/', icon: 'material-symbols:folder-outline' },
+  { text: '笔记', link: '/notes/', icon: 'material-symbols:note-alt-rounded' },
   { text: '博客', link: '/blog/', icon: 'material-symbols:article-outline' },
   { text: '标签', link: '/blog/tags/', icon: 'material-symbols:label-outline' },
   { text: '归档', link: '/blog/archives/', icon: 'material-symbols:archive-outline' },

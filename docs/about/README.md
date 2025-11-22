@@ -9,12 +9,6 @@ copyright: false
 
 ## 💻 技术栈
 
-### 后端
-
-- **Python** - 主要开发语言
-- **FastAPI / Flask** - Web 框架
-- **数据库** - MySQL, PostgreSQL, MongoDB
-
 ### 前端
 
 - **Vue.js** - 主要前端框架
