@@ -6,7 +6,7 @@ copyright: false
 ---
 
 
-- 🔍 **[服务监控](https://nezha.952780.xyz/)** - 服务器状态监控
+- 🔍 **[服务监控](https://nezha.lllh.de/)** - 服务器状态监控
 
 - 📊 **[网站监控](https://status.106996.xyz/)** - 网站可用性检测
 
