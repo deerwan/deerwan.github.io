@@ -19,6 +19,8 @@ npm run docs:build
 npm run docs:preview
 # 更新 vuepress 和主题
 npm run vp-update
+# 清除缓存和临时文件，然后重新启动开发服务器
+npm run docs:dev-clean
 ```
 
 ## 部署到 GitHub Pages
