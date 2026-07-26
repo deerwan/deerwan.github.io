@@ -11,4 +11,5 @@ import RepoCard from 'vuepress-theme-plume/features/RepoCard.vue'
 
 <CardGrid>
   <RepoCard repo="deerwan/nav" />
+  <RepoCard repo="deerwan/domain-lite" />
 </CardGrid>

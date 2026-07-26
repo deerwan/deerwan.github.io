@@ -9,8 +9,8 @@ config:
     effectConfig: 210
     hero:
       name: 鹿人
-      tagline: 欢迎来到我的主页
-      text: 记录生活的点滴
+      tagline: 一个普通人的观察笔记
+      text: 关于代码、生活，以及那些无意义却有意义的小事。
       actions:
         -
           theme: brand
