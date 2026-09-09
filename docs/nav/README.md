@@ -10,7 +10,7 @@ copyright: false
 
 - 📊 **[网站监控](https://status.106996.xyz/)** - 网站可用性检测
 
-- 🖼️ **[自用图床](https://img.106996.xyz/)** - 图片托管服务
+- 🖼️ **[自用图床](https://img.lllh.de/)** - 图片托管服务
 
 - 🔖 **[书签管理](https://bookmark.lllh.de)** - 书签管理服务
 
