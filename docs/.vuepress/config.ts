@@ -22,6 +22,14 @@ export default defineUserConfig({
   head: [
     // 配置站点图标
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    // Google AdSense 站点验证
+    ['meta', { name: 'google-adsense-account', content: 'ca-pub-9124143355718445' }],
+    // Google AdSense 广告脚本
+    ['script', {
+      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9124143355718445',
+      async: true,
+      crossorigin: 'anonymous',
+    }],
   ],
 
   bundler: viteBundler(),
